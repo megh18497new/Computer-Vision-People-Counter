@@ -189,7 +189,7 @@ def run():
 				# add the bounding box coordinates to the rectangles list
 				rects.append((startX, startY, endX, endY))
 
-		# draw a horizontal line in the center of the frame -- once an
+		# draw a vertical line in the center of the frame -- once an
 		# object crosses this line we will determine whether they were
 		# moving 'up' or 'down'
 		cv2.line(frame, (W // 2, 0), (W // 2, H), (0, 0, 0), 3)
